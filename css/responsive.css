@@ -1,0 +1,55 @@
+@media screen and (max-width:552px) {
+    /* navbar */
+    .nav-container{
+        width: 50px;
+    }
+    .nav h1{
+        display: none;
+    }
+    .menu div{
+        padding: 0;
+       text-align: center;
+    }
+    .menu img{
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+    }
+    .home{
+        border: none;
+    }
+
+    .home span{
+        display: none;
+    }
+    .search span{
+        display: none;
+    }
+    .library span{
+        display: none;
+    }
+
+    /* header */
+
+    .header-container{
+        width: calc(100vw - 50px);
+        height: 80px;
+        color:white;
+        background-color: var(--bg-header);
+        
+    }
+
+    /* main */
+    .main-container{
+        width:calc(100% - 50px);
+        height: calc(100vh - 80px);
+        left:50px;
+        top:80px;
+    
+        
+        
+    }
+
+
+    /* footer */
+}
