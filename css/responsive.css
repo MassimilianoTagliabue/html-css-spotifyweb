@@ -3,9 +3,17 @@
     .nav-container{
         width: 50px;
     }
-    .nav h1{
+    
+    .logo{
         display: none;
     }
+    .logo-small{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin: 20px 0 0 10px;
+    }
+
     .menu div{
         padding: 0;
        text-align: center;
@@ -29,6 +37,10 @@
         display: none;
     }
 
+    /* playlist */
+    .playlist{
+        display: none;
+    }
     /* header */
 
     .header-container{
