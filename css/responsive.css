@@ -18,6 +18,9 @@
         padding: 0;
        text-align: center;
     }
+    .menu{
+        height: 80%;
+    }
     .menu img{
         width: 25px;
         height: 25px;
@@ -41,6 +44,19 @@
     .playlist{
         display: none;
     }
+
+    /* account */
+.account span,
+.account hr{
+    display: none;
+}
+
+.account{
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+
     /* header */
 
     .header-container{
