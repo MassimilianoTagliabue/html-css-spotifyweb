@@ -52,12 +52,15 @@ a{
     background-color: var(--bg-nav);
     color: var(--gray-text);
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
-.logo{
-    padding: 0 10px 0 20px;
-    height: 100px;
+ .menu .logo{
+    
+    height: 50px;
     width: 130px;
     
 }
@@ -140,7 +143,7 @@ a{
 
 /* account */
 .account{
-    height: 15%;
+    
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
@@ -253,8 +256,7 @@ border-bottom: 1px solid gray;
     display: flex;
     flex-wrap: wrap;
 
-    /* debug */
-    border: 2px solid blue;
+    
     
 }
 
@@ -262,8 +264,6 @@ border-bottom: 1px solid gray;
     width: calc(100%/6);
     padding: 20px 10px;
     
-    /* debug */
-    border: 2px solid white;
     
 }
 
@@ -294,4 +294,113 @@ border-radius: 50%;
     color: var(--white-text);
     position: absolute;
     align-self: end;
+    display: flex;
+}
+
+.col-25{
+    width: 25%;
+    padding: 20px 0 20px 20px;
+    display: flex;
+    /* debug */
+    border: 2px solid red;
+    
+}
+
+.footer img{
+    width: 60px;
+    height: 60px;
+    
+}
+
+.footer .center{
+    padding-left: 20px;
+    align-self: center;
+}
+
+.padd-left{
+    padding: 0 0 0 20px;
+}
+
+.col-50{
+    width: 50%;
+    padding: 20px 0 20px 0;
+    /* debug */
+    border: 2px solid blue;
+}
+.icon{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.icon i{
+    text-align: center;
+    padding: 0 10px;
+    font-size: 1.6rem;
+}
+
+.gray-line{
+    display: inline-block;
+    width: 70%;
+    border: 3px solid gray;
+    position: absolute;
+    top:10px;
+    left:8%;
+}
+
+.marg{
+    
+    margin: 0 auto;
+}
+.relative{
+    position: relative;
+}
+
+.white-line{
+    position: absolute;
+    display: inline-block;
+    width: 15%;
+    top:10px;
+    left:8%;
+
+    border: 3px solid lightgray;
+}
+
+
+.marg .marg-left-74{
+    margin-left: 74%;
+}
+.volume{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.volume i{
+    font-size: 1.1rem;
+    padding: 0 5px;
+}
+.volume .gray-line{
+    width: 50%;
+    left: 40%;
+    top:49%;
+}
+
+.volume .white-line{
+    left: 40%;
+    top:49%;
+}
+
+.volume .line{
+    border: 2px solid red;
+}
+.volume .col-40{
+    width: 40%;
+    text-align: end;
+    padding: 0 10px;
+    display: flex;
+
+    
 }

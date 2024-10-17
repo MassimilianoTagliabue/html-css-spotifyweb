@@ -12,6 +12,31 @@
         width: calc(100%/4);
         
     }
+
+    /* footer */
+    .footer .col-25{
+        width: 30%;
+        padding-left: 10px;
+    }
+
+    .footer .center{
+        padding-left: 10px;
+    }
+    .padd-left{
+        padding: 0;
+    }
+
+    .footer .col-50{
+        width: 40%;
+    }
+
+    .gray-line{
+        left: 12%;
+    }
+    .white-line{
+        left: 12%;
+    }
+
 }
 
 @media screen and (max-width:639px) {
@@ -19,6 +44,11 @@
     /* recently */
     .col{
         width: calc(100%/2);
+    }
+
+    /* footer */
+    .footer .center i{
+        display: inline;
     }
 }
 
