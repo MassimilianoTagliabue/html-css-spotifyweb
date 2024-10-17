@@ -481,3 +481,7 @@ border-radius: 50%;
 .hover-img:hover .hover-square{
    z-index: 1;
 }
+
+.upgrade:hover{
+    font-size: 1.2rem;
+}
